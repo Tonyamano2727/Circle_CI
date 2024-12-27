@@ -29,6 +29,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send("Hello world");
+  console.log('gigi');
 });
 
 app.get("/product", async (req, res) => {
